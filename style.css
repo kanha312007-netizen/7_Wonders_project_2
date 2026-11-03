@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #263238;
+  background-color: #f4f1ea;
+}
+
+header {
+  padding: 32px 16px;
+  text-align: center;
+  color: white;
+  background-color: #285943;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+nav a {
+  margin: 0 8px;
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+#wonders article {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 8px 0;
+  padding: 16px;
+  vertical-align: top;
+  background-color: white;
+  border: 1px solid #d8ded8;
+  border-radius: 8px;
+}
+
+article h3 {
+  margin-top: 0;
+  color: #285943;
+}
+
+figure {
+  margin: 0 0 16px;
+}
+
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-top: 6px;
+  color: #59645d;
+  font-size: 0.9rem;
+}
+
+details,
+#facts ul {
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #d8ded8;
+  border-radius: 8px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  color: white;
+  background-color: #285943;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (min-width: 650px) {
+  #wonders article {
+    width: calc(50% - 12px);
+    margin: 6px;
+  }
+}
+
+@media (min-width: 900px) {
+  #wonders article {
+    width: calc(33.333% - 12px);
+  }
+}
