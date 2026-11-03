@@ -90,6 +90,22 @@ footer p {
   margin: 0;
 }
 
+.feedback-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  color: #285943;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.feedback-button:hover {
+  background-color: #e5eee8;
+}
+
 @media (min-width: 650px) {
   #wonders article {
     width: calc(50% - 12px);
